@@ -33,7 +33,7 @@ function loadProfile(profile) {
             LinkedIn
         </a>
 
-        <a href="assets/CV_Ricardo_Fuly.pdf" target="_blank" class="btn primary">
+        <a href="${profile.socials[2].url}" target="_blank" download="Luiz Ricardo Fuly Silva (CV)" class="btn primary">
             Download CV
         </a>
     </div>

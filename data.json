@@ -2,12 +2,13 @@
   "profile": {
     "name": "Ricardo Fuly",
     "role": "Game Developer",
-    "tagline": "Criando sistemas, jogos e ferramentas escaláveis",
-    "location": "Brasil",
+    "tagline": "Building scalable systems, games, and tools",
+    "location": "Brazil",
     "avatar": "images/eu.png",
     "socials": [
       { "name": "GitHub", "url": "https://github.com/ricardofuly" },
-      { "name": "LinkedIn", "url": "https://linkedin.com/in/ricardofuly" }
+      { "name": "LinkedIn", "url": "https://linkedin.com/in/ricardofuly" },
+      { "name": "CV", "url": "doc/Curriculo(Luiz Ricardo Fuly Silva).pdf" }
     ]
   },
 
@@ -26,9 +27,15 @@
   "games": [
     {
       "title": "Nicktoons & The Dice of Destiny",
-      "description": "Coloca heróis emblemáticos da Nickelodeon num mundo de fantasia e RPG de ação em tempo real.",
-      "tech": ["Unreal Engine", "C++", "Gameplay Ability System", "Bug Fixing", "UI Programming"],
-      "role" : "Game Developer - Trainee",
+      "description": "Brings iconic Nickelodeon heroes into a fantasy world with real-time action RPG gameplay.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Gameplay Ability System",
+        "Bug Fixing",
+        "UI Programming"
+      ],
+      "role": "Game Developer - Trainee",
       "Studio": "Petit Fabrik - 2025",
       "image": "images/dice.png",
       "link": "https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/"
@@ -37,36 +44,49 @@
 
   "projects": [
     {
-      "title": "Um Playground de Aprendizado em Unreal",
-      "description": "Projeto pessoal para experimentar e aprender novas técnicas em Unreal Engine.",
-      "tech": ["Unreal Engine", "C++", "Gameplay Ability System", "Multiplayer Replication"],
+      "title": "Unreal Learning Playground",
+      "description": "Personal project focused on experimenting with and learning new techniques in Unreal Engine.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Gameplay Ability System",
+        "Multiplayer Replication"
+      ],
       "image": "images/playground.png",
       "link": "https://github.com/ricardofuly/LearningSandbox"
     },
     {
       "title": "Cowboy Chase",
-      "description": "Projeto criado no curso Samsung Ocean Unity 3D. Jogo de Perseguição onde o jogador controla um cowboy que coleta moedas enquanto foge do policial.",
+      "description": "Project created during the Samsung Ocean Unity 3D course. A chase game where the player controls a cowboy who collects coins while escaping from a police officer.",
       "tech": ["Unity", "C#"],
       "image": "images/cowboychase.png",
       "link": "https://github.com/ricardofuly/cowboychase"
     },
     {
       "title": "Dynamic Timers",
-      "description": "Plugin de criação e gerenciamento de timer de forma facil via tags de forma replicada.",
-      "tech": ["Unreal Engine", "C++", "Multiplayer Replication"],
+      "description": "Plugin for creating and managing timers easily using replicated tag-based systems.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Multiplayer Replication"
+      ],
       "image": "images/timers.png",
       "link": "https://github.com/ricardofuly/Dynamic-Timers"
     },
     {
       "title": "Big Head Kitchen",
-      "description": "Um Party Game multiplayer local onde os player lutam entre si até sobreviver apenas um, criado durante a Global Game Jam 2023.",
-      "tech": ["Unreal Engine", "C++", "Multiplayer Replication"],
+      "description": "A local multiplayer party game where players fight each other until only one survives, created during Global Game Jam 2023.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Multiplayer Replication"
+      ],
       "image": "images/slap.png",
       "link": "https://globalgamejam.org/games/2024/slapbread-7"
     },
     {
       "title": "Bubble Express",
-      "description": "Um jogo desafiador de entregar onde os entregadores são bolhas, e precisam evitar obstáculos para completar suas entregas, criado durante a Global Game Jam 2024.",
+      "description": "A challenging delivery game where couriers are bubbles that must avoid obstacles to complete their deliveries, created during Global Game Jam 2024.",
       "tech": ["Unreal Engine", "C++"],
       "image": "images/bubble.png",
       "link": "https://globalgamejam.org/games/2025/bubble-express-9-0"
@@ -75,26 +95,26 @@
 
   "showcase": [
     {
-      "title": "Abilidade de Blink Attack",
-      "description": "Demonstração de abilidade de blink attack.",
+      "title": "Blink Attack Ability",
+      "description": "Demonstration of a blink attack ability.",
       "tech": ["Unreal Engine", "Blueprints"],
       "youtubeId": "uEyKUSPmz3c"
     },
     {
-      "title": "Prototipo de um jogo de RPG",
-      "description": "Prototipo de um jogo de RPG com sistema de combate básico, inventario, equipamentos, atributos e level up.",
+      "title": "RPG Game Prototype",
+      "description": "Prototype of an RPG game featuring a basic combat system, inventory, equipment, attributes, and level progression.",
       "tech": ["Unreal Engine", "Blueprints"],
       "youtubeId": "UCU8JxL-_xc"
     },
     {
-      "title": "Clone do Google Dino Run",
-      "description": "Clone do jogo Google Dino Run em 3D.",
+      "title": "Google Dino Run Clone",
+      "description": "3D clone of the Google Dino Run game.",
       "tech": ["Unreal Engine", "Blueprints"],
       "youtubeId": "3Th0LtHzfeE"
     },
     {
-      "title": "Prototipo de um jogo de plataforma",
-      "description": "Prototipo de um jogo de plataforma 3D com mecânicas de dash, armadilhas, jump-pad.",
+      "title": "Platformer Game Prototype",
+      "description": "Prototype of a 3D platformer game with dash mechanics, traps, and jump pads.",
       "tech": ["Unreal Engine", "Blueprints"],
       "youtubeId": "ZKGNYKm2AAA"
     }
