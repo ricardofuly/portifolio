@@ -1,0 +1,467 @@
+/* =========================
+   VARIÁVEIS
+========================= */
+:root {
+  --bg: #0f0f14;
+  --card: #1a1a23;
+  --text: #eaeaf0;
+  --muted: rgba(255,255,255,0.65);
+  --accent: #7c7cff;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  background:
+    radial-gradient(circle at top left, rgba(124,124,255,0.12), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(124,124,255,0.08), transparent 40%),
+    var(--bg);
+
+  color: var(--text);
+
+  max-width: 1100px;
+  margin: auto;
+  padding: 48px 32px;
+}
+
+/* =========================
+   TIPOGRAFIA
+========================= */
+h1, h2, h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+p {
+  color: rgba(255,255,255,0.85);
+  line-height: 1.6;
+}
+
+small {
+  color: var(--muted);
+}
+
+/* =========================
+   HEADER / HERO
+========================= */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--accent), transparent);
+  border-radius: 4px;
+}
+
+header img {
+  width: 96px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header small {
+  font-size: 0.95rem;
+}
+
+header.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 96px;
+  position: relative;
+}
+
+/* Linha decorativa */
+header.hero::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--accent), transparent);
+  border-radius: 4px;
+}
+
+/* Texto */
+.hero-text h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+.hero-text small {
+  font-size: 0.95rem;
+}
+
+/* Avatar */
+.hero-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px rgba(124,124,255,0.25),
+    0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* =========================
+   HERO ACTIONS
+========================= */
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Botão principal (CV) */
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent), #5f5fff);
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(124,124,255,0.35);
+}
+
+.btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(124,124,255,0.5);
+}
+
+/* Botões secundários */
+.btn.secondary {
+  background: transparent;
+  color: var(--text);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
+}
+
+.btn.secondary:hover {
+  background: rgba(255,255,255,0.05);
+  box-shadow:
+    inset 0 0 0 1px rgba(124,124,255,0.5),
+    0 8px 20px rgba(124,124,255,0.2);
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   SEÇÕES
+========================= */
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+}
+
+li {
+  background: linear-gradient(145deg, #1e1e2a, #14141c);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.05);
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 10px 24px rgba(124,124,255,0.18),
+    inset 0 0 0 1px rgba(124,124,255,0.4);
+}
+
+/* =========================
+   GAMES
+========================= */
+
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.games {
+  width: 30%;
+  background: linear-gradient(180deg, #1f1f2e, #15151e);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow:
+    0 15px 40px rgba(0,0,0,0.6),
+    inset 0 0 0 1px rgba(255,255,255,0.05);
+  transition: all 0.25s ease;
+}
+
+.games:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 25px 50px rgba(0,0,0,0.7),
+    0 0 0 1px rgba(124,124,255,0.5);
+}
+
+.games img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.games h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.games p {
+  font-size: 0.95rem;
+}
+
+.games small {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.85rem;
+}
+
+.games-link {
+    text-decoration: none;
+}
+
+
+
+/* =========================
+   PROJETOS
+========================= */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.project {
+  background: linear-gradient(180deg, #1f1f2e, #15151e);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow:
+    0 15px 40px rgba(0,0,0,0.6),
+    inset 0 0 0 1px rgba(255,255,255,0.05);
+  transition: all 0.25s ease;
+}
+
+.project:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 25px 50px rgba(0,0,0,0.7),
+    0 0 0 1px rgba(124,124,255,0.5);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.project h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.project p {
+  font-size: 0.95rem;
+}
+
+.project small {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.85rem;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+/* =========================
+   SHOWCASE
+========================= */
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.showcase {
+  background: linear-gradient(180deg, #1f1f2e, #15151e);
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow:
+    0 15px 40px rgba(0,0,0,0.6),
+    inset 0 0 0 1px rgba(255,255,255,0.05);
+  transition: all 0.25s ease;
+}
+
+.showcase:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 25px 50px rgba(0,0,0,0.7),
+    0 0 0 1px rgba(124,124,255,0.5);
+}
+
+.showcase iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  border: none;
+}
+
+.showcase h3 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.showcase p {
+  font-size: 0.95rem;
+}
+
+.showcase small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* =========================
+   PAGINAÇÃO
+========================= */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.pagination button {
+  background: transparent;
+  color: var(--text);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
+  transition: all 0.25s ease;
+}
+
+.pagination button:hover {
+  background: rgba(255,255,255,0.05);
+  box-shadow:
+    inset 0 0 0 1px rgba(124,124,255,0.6),
+    0 8px 20px rgba(124,124,255,0.25);
+  transform: translateY(-2px);
+}
+
+.pagination button.active {
+  background: linear-gradient(135deg, var(--accent), #5f5fff);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(124,124,255,0.35);
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 768px) {
+  body {
+    padding: 32px 20px;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
