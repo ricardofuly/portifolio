@@ -20,7 +20,6 @@
     "Gameplay Programming",
     "UI Programming",
     "Gameplay Ability System",
-    "Procedural Generation",
     "Tools & Plugins"
   ],
 
@@ -36,7 +35,7 @@
         "UI Programming"
       ],
       "role": "Game Developer - Trainee",
-      "Studio": "Petit Fabrik - 2025",
+      "Studio": "Petit Fabrik - 2025 ~ 2026",
       "image": "images/dice.png",
       "link": "https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/"
     }
@@ -117,6 +116,12 @@
       "description": "Prototype of a 3D platformer game with dash mechanics, traps, and jump pads.",
       "tech": ["Unreal Engine", "Blueprints"],
       "youtubeId": "ZKGNYKm2AAA"
+    },
+    {
+      "title": "Battle Royale Zone",
+      "description": "Demonstration of a shrinking safe zone mechanic for a battle royale game.",
+      "tech": ["Unreal Engine", "C++", "Gameplay Ability System"],
+      "youtubeId": "5Fy1hTH4XdA"
     }
   ]
 }
