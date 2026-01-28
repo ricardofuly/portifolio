@@ -4,6 +4,7 @@ fetch("data.json")
   .then(res => res.json())
   .then(data => {
     loadProfile(data.profile);
+    loadAbout(data.about);
     loadSkills(data.skills);
     loadGames(data.games);
     loadProjects(data.projects);
@@ -38,6 +39,13 @@ function loadProfile(profile) {
         </a>
     </div>
   `;
+}
+
+function loadAbout(about) {
+  const el = document.getElementById("about");
+  about.forEach(paragraph => {
+    el.innerHTML += `<p>${paragraph}</p>`;
+  });
 }
 
 function loadSkills(skills) {

@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Ricardo Fuly",
-    "role": "Game Developer",
+    "role": "Game Developer • Frontend Developer",
     "tagline": "Building scalable systems, games, and tools",
     "location": "Brazil",
     "avatar": "images/eu.png",
@@ -12,11 +12,23 @@
     ]
   },
 
+  "about": [
+    "For me, game development is about combining creativity and engineering to create experiences that truly connect people.",
+    "Over <strong>3 years of experience in game development</strong>, I have been turning ideas into playable systems, exploring mechanics, performance, and design in a practical and consistent way.",
+    "I have <strong>1 year of professional experience with Unreal Engine 5</strong>, working with <strong>C++ and Unreal Blueprints</strong> to create mechanics, gameplay systems, and reusable tools. I have a strong interest in clean architecture, scalable solutions, and code that makes sense both for the project and the team.",
+    "Beyond Unreal, I am constantly expanding my technical skill set. Currently, I am <strong>learning Unity and C#</strong>, exploring new development approaches, architectural patterns, and different production pipelines, which broadens my versatility as a developer.",
+    "I strongly believe in teamwork and enjoy collaborating with artists, designers, and other programmers—exchanging ideas, rapidly prototyping, and refining systems until the final experience is cohesive, immersive, and fun to play.",
+    "My goal is to create games that not only work well, but also leave a lasting impact on the player."
+  ],
+
   "skills": [
     "Unreal Engine",
-    "C++",
     "Unity",
+    "C++",
     "C#",
+    "HTML",
+    "CSS",
+    "JavaScript",
     "Gameplay Programming",
     "UI Programming",
     "Gameplay Ability System",
