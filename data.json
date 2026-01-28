@@ -74,7 +74,7 @@
     },
     {
       "title": "Big Head Kitchen",
-      "description": "A local multiplayer party game where players fight each other until only one survives, created during Global Game Jam 2023.",
+      "description": "A local multiplayer party game where players fight each other until only one survives, created during Global Game Jam 2024.",
       "tech": [
         "Unreal Engine",
         "C++",
@@ -85,7 +85,7 @@
     },
     {
       "title": "Bubble Express",
-      "description": "A challenging delivery game where couriers are bubbles that must avoid obstacles to complete their deliveries, created during Global Game Jam 2024.",
+      "description": "A challenging delivery game where couriers are bubbles that must avoid obstacles to complete their deliveries, created during Global Game Jam 2025.",
       "tech": ["Unreal Engine", "C++"],
       "image": "images/bubble.png",
       "link": "https://globalgamejam.org/games/2025/bubble-express-9-0"
