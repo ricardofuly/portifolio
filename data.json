@@ -101,6 +101,13 @@
       "tech": ["Unreal Engine", "C++"],
       "image": "images/bubble.png",
       "link": "https://globalgamejam.org/games/2025/bubble-express-9-0"
+    },
+    {
+      "title": "The Impostor’s Table",
+      "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme.",
+      "tech": ["Unreal Engine", "C++", "Multiplayer Replication", "VOIP"],
+      "image": "images/mask.png",
+      "link": "https://globalgamejam.org/games/2026/mask-9-1"
     }
   ],
 
