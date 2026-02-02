@@ -141,6 +141,12 @@
       "description": "Demonstration of a shrinking safe zone mechanic for a battle royale game.",
       "tech": ["Unreal Engine", "C++", "Gameplay Ability System"],
       "youtubeId": "5Fy1hTH4XdA"
+    },
+    {
+      "title": "Floating Mask",
+      "description": "A Floating Mask that look at current player at the turn.",
+      "tech": ["Unreal Engine", "C++"],
+      "youtubeId": "xGVlSO-kJto"
     }
   ]
 }
