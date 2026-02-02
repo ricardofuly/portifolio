@@ -104,7 +104,7 @@
     },
     {
       "title": "The Impostor’s Table",
-      "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme.",
+      "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme, created during Global Game Jam 2026.",
       "tech": ["Unreal Engine", "C++", "Multiplayer Replication", "VOIP"],
       "image": "images/mask.png",
       "link": "https://globalgamejam.org/games/2026/mask-9-1"
