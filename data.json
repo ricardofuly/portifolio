@@ -147,6 +147,12 @@
       "description": "A Floating Mask that look at current player at the turn.",
       "tech": ["Unreal Engine", "C++"],
       "youtubeId": "xGVlSO-kJto"
+    },
+    {
+      "title": "Login / Registration API Integration",
+      "description": "Integration of a login and registration system using a REST API.",
+      "tech": ["Unreal Engine", "C++", "TypeScript"],
+      "youtubeId": "3Y1TGmmOD_Q"
     }
   ]
 }
