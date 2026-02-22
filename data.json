@@ -2,25 +2,29 @@
   "profile": {
     "name": "Ricardo Fuly",
     "role": "Game Developer • Frontend Developer",
-    "tagline": "Building scalable systems, games, and tools",
+    "tagline": "Specializing in high-performance gameplay systems and scalable software architecture",
     "location": "Brazil",
     "avatar": "images/eu.png",
     "socials": [
-      { "name": "GitHub", "url": "https://github.com/ricardofuly" },
-      { "name": "LinkedIn", "url": "https://linkedin.com/in/ricardofuly" },
-      { "name": "CV", "url": "doc/Curriculo(Luiz Ricardo Fuly Silva).pdf" }
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ricardofuly"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/ricardofuly"
+      },
+      {
+        "name": "CV",
+        "url": "doc/Curriculo(Luiz Ricardo Fuly Silva).pdf"
+      }
     ]
   },
-
   "about": [
-    "For me, game development is about combining creativity and engineering to create experiences that truly connect people.",
-    "Over <strong>3 years of experience in game development</strong>, I have been turning ideas into playable systems, exploring mechanics, performance, and design in a practical and consistent way.",
-    "I have <strong>1 year of professional experience with Unreal Engine 5</strong>, working with <strong>C++ and Unreal Blueprints</strong> to create mechanics, gameplay systems, and reusable tools. I have a strong interest in clean architecture, scalable solutions, and code that makes sense both for the project and the team.",
-    "Beyond Unreal, I am constantly expanding my technical skill set. Currently, I am <strong>learning Unity and C#</strong>, exploring new development approaches, architectural patterns, and different production pipelines, which broadens my versatility as a developer.",
-    "I strongly believe in teamwork and enjoy collaborating with artists, designers, and other programmers—exchanging ideas, rapidly prototyping, and refining systems until the final experience is cohesive, immersive, and fun to play.",
-    "My goal is to create games that not only work well, but also leave a lasting impact on the player."
+    "For me, game development is about combining creativity and engineering to create experiences that truly connect people. Over <strong>3 years of experience in game development</strong>, I have been turning ideas into playable systems, exploring mechanics, performance, and design in a practical and consistent way.",
+    "I have <strong>1 year of professional experience with Unreal Engine 5</strong>, working with <strong>C++ and Unreal Blueprints</strong> to create mechanics, gameplay systems, and reusable tools. Beyond Unreal, I am constantly expanding my technical skill set—currently <strong>learning Unity and C#</strong>, exploring new development approaches and architectural patterns to broaden my versatility.",
+    "I strongly believe in teamwork and enjoy collaborating with artists, designers, and other programmers to refine systems until the final experience is cohesive, immersive, and fun to play. My goal is to create games that not only work well, but also leave a lasting impact on the player."
   ],
-
   "skills": [
     "Unreal Engine",
     "Unity",
@@ -34,7 +38,26 @@
     "Gameplay Ability System",
     "Tools & Plugins"
   ],
-
+  "experience": [
+    {
+      "role": "Game Developer - Trainee",
+      "company": "Petit Fabrik",
+      "location": "Brazil",
+      "duration": "1 YEAR"
+    },
+    {
+      "role": "Game Developer - Freelance",
+      "company": "Diamond Studios",
+      "location": "Brazil",
+      "duration": "4 MONTHS"
+    },
+    {
+      "role": "Backoffice - Freelance",
+      "company": "Cooler Master",
+      "location": "Brazil",
+      "duration": "3 YEARS"
+    }
+  ],
   "games": [
     {
       "title": "Nicktoons & The Dice of Destiny",
@@ -52,7 +75,6 @@
       "link": "https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/"
     }
   ],
-
   "projects": [
     {
       "title": "Unreal Learning Playground",
@@ -69,7 +91,10 @@
     {
       "title": "Cowboy Chase",
       "description": "Project created during the Samsung Ocean Unity 3D course. A chase game where the player controls a cowboy who collects coins while escaping from a police officer.",
-      "tech": ["Unity", "C#"],
+      "tech": [
+        "Unity",
+        "C#"
+      ],
       "image": "images/cowboychase.png",
       "link": "https://github.com/ricardofuly/cowboychase"
     },
@@ -98,60 +123,90 @@
     {
       "title": "Bubble Express",
       "description": "A challenging delivery game where couriers are bubbles that must avoid obstacles to complete their deliveries, created during Global Game Jam 2025.",
-      "tech": ["Unreal Engine", "C++"],
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
       "image": "images/bubble.png",
       "link": "https://globalgamejam.org/games/2025/bubble-express-9-0"
     },
     {
       "title": "The Impostor’s Table",
       "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme, created during Global Game Jam 2026.",
-      "tech": ["Unreal Engine", "C++", "Multiplayer Replication", "VOIP"],
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Multiplayer Replication",
+        "VOIP"
+      ],
       "image": "images/mask.png",
       "link": "https://globalgamejam.org/games/2026/mask-9-1"
     }
   ],
-
   "showcase": [
     {
       "title": "Blink Attack Ability",
       "description": "Demonstration of a blink attack ability.",
-      "tech": ["Unreal Engine", "Blueprints"],
+      "tech": [
+        "Unreal Engine",
+        "Blueprints"
+      ],
       "youtubeId": "uEyKUSPmz3c"
     },
     {
       "title": "RPG Game Prototype",
       "description": "Prototype of an RPG game featuring a basic combat system, inventory, equipment, attributes, and level progression.",
-      "tech": ["Unreal Engine", "Blueprints"],
+      "tech": [
+        "Unreal Engine",
+        "Blueprints"
+      ],
       "youtubeId": "UCU8JxL-_xc"
     },
     {
       "title": "Google Dino Run Clone",
       "description": "3D clone of the Google Dino Run game.",
-      "tech": ["Unreal Engine", "Blueprints"],
+      "tech": [
+        "Unreal Engine",
+        "Blueprints"
+      ],
       "youtubeId": "3Th0LtHzfeE"
     },
     {
       "title": "Platformer Game Prototype",
       "description": "Prototype of a 3D platformer game with dash mechanics, traps, and jump pads.",
-      "tech": ["Unreal Engine", "Blueprints"],
+      "tech": [
+        "Unreal Engine",
+        "Blueprints"
+      ],
       "youtubeId": "ZKGNYKm2AAA"
     },
     {
       "title": "Battle Royale Zone",
       "description": "Demonstration of a shrinking safe zone mechanic for a battle royale game.",
-      "tech": ["Unreal Engine", "C++", "Gameplay Ability System"],
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Gameplay Ability System"
+      ],
       "youtubeId": "5Fy1hTH4XdA"
     },
     {
       "title": "Floating Mask",
       "description": "A Floating Mask that look at current player at the turn.",
-      "tech": ["Unreal Engine", "C++"],
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
       "youtubeId": "xGVlSO-kJto"
     },
     {
       "title": "Login / Registration API Integration",
       "description": "Integration of a login and registration system using a REST API.",
-      "tech": ["Unreal Engine", "C++", "TypeScript"],
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "TypeScript"
+      ],
       "youtubeId": "3Y1TGmmOD_Q"
     }
   ]
