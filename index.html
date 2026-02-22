@@ -1,43 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ricardo Fuly - Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico" type="images/favicon.ico">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <header id="profile" class="hero"></header>
+  <div class="container">
+    <nav>
+      <div class="logo"><span>It's</span> me</div>
+      <div class="nav-links">
+        <div class="nav-item">
+          <h4>My Projects</h4>
+          <p>See all of nice project</p>
+          <a href="#personal-projects"></a>
+        </div>
+        <div class="nav-item">
+          <h4>About Me</h4>
+          <p>Learn about my self</p>
+          <a href="#about-section"></a>
+        </div>
+        <div class="nav-item">
+          <h4>Contact me</h4>
+          <p>lricardofs@gmail.com</p>
+          <a href="#contact"></a>
+        </div>
+      </div>
+    </nav>
 
-  <section id="about">
-    <h2>About</h2>
-  </section>
+    <header id="profile" class="hero"></header>
+  </div>
 
+  <div class="marquee">
+    <div id="skills" class="marquee-content"></div>
+  </div>
 
-  <section>
-    <h2>Skills</h2>
-    <ul id="skills"></ul>
-  </section>
+  <div class="container">
+    <section id="about-section" class="about-section">
+      <div class="exp-header">
+        <div class="exp-eclipse"></div>
+        <h2>ABOUT ME</h2>
+        <p>A glimpse into my background, passions, and the journey that shaped my career.</p>
+      </div>
+      <div id="about" class="about-text-container"></div>
+    </section>
 
-  <section>
-    <h2>Professional Experience</h2>
-    <div id="games" class="games-grid"></div>
-    <div id="games-pagination" class="pagination"></div>
-  </section>
+    <section id="experience-section" class="experience-section">
+      <div class="exp-header">
+        <div class="exp-eclipse"></div>
+        <h2>EXPERIENCE</h2>
+        <p>A summary of my professional journey in game development and software engineering.</p>
+        <div class="slashed-circle"></div>
+      </div>
+      <div id="experience" class="exp-list"></div>
+      <div id="experience-pagination" class="pagination"></div>
+    </section>
 
-  <section>
-    <h2>Personal Projects</h2>
-    <div id="projects" class="projects-grid"></div>
-    <div id="projects-pagination" class="pagination"></div>
-  </section>
+    <section id="featured-work" class="featured-work-section">
+      <div class="exp-header">
+        <div class="dot-grid"></div>
+        <div class="exp-eclipse"></div>
+        <h2>FEATURED WORK</h2>
+        <p>A curated selection of my professional projects and case studies in the game industry.</p>
+      </div>
+      <div id="games" class="case-study-list"></div>
+      <div id="games-pagination" class="pagination"></div>
+    </section>
 
-  <section>
-    <h2>Showcase</h2>
-    <div id="showcase" class="showcase-grid"></div>
-    <div id="showcase-pagination" class="pagination"></div>
-  </section>
+    <section id="personal-projects" class="personal-projects-section">
+      <div class="exp-header">
+        <div class="dot-grid"></div>
+        <div class="exp-eclipse"></div>
+        <h2>PERSONAL CREATIONS</h2>
+        <p>A collection of experimental projects, tools, and prototypes developed in my playground.</p>
+      </div>
+      <div id="projects" class="case-study-list"></div>
+      <div id="projects-pagination" class="pagination"></div>
+    </section>
+
+    <section id="showcase-section" class="visual-works-section">
+      <div class="exp-header">
+        <div class="slashed-circle"></div>
+        <div class="exp-eclipse"></div>
+        <h2>VISUAL WORKS</h2>
+        <p>A showcase of my cinematic work, trailer editing, and motion graphics projects.</p>
+      </div>
+      <div id="showcase" class="case-study-list"></div>
+      <div id="showcase-pagination" class="pagination"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-header">
+        <h2 class="contact-title">
+          <div class="title-line-1"><span class="gradient-text">Say Hi!</span> and tell me about</div>
+          <div class="title-line-2">
+            <svg class="header-arrow" width="220" height="30" viewBox="0 0 220 30" fill="none">
+              <path d="M5 18C40 12 120 25 210 15M210 15L195 5M210 15L195 25" stroke="white" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>your idea</span>
+          </div>
+        </h2>
+        <p class="contact-subtitle">Have a nice works? reach out and let's chat.</p>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/xwvnrwll" method="POST" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name:*</label>
+            <input type="text" name="name" placeholder="Hello..." required>
+          </div>
+          <div class="form-group">
+            <label>Email.*</label>
+            <input type="email" name="email" placeholder="Where can i reply" required>
+          </div>
+        </div>
+
+        <div class="form-group full-width">
+          <label>Company name*</label>
+          <input type="text" name="company" placeholder="Your company or website?" required>
+        </div>
+
+        <div class="interests-section">
+          <label>What's in your mind?*</label>
+          <div class="service-tags">
+            <button type="button" class="service-tag">Gameplay Programming</button>
+            <button type="button" class="service-tag">UI Programming</button>
+            <button type="button" class="service-tag">Web Development</button>
+            <button type="button" class="service-tag">Vibe Coding</button>
+          </div>
+          <input type="hidden" name="interests" id="interests-input">
+        </div>
+
+        <div class="form-footer">
+          <div class="submit-wrap">
+            <button type="submit" class="btn-send-gradient">Send me your message</button>
+            <div class="footer-arrow-container">
+              <svg class="footer-arrow" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                <path d="M40 10C35 25 25 35 10 40M10 40L20 32M10 40L18 48" stroke="white" stroke-width="1.5"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+          <p class="footer-note">I'll must get back to you within 24 hours</p>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div>&copy; 2026 Ricardo Fuly. All rights reserved.</div>
+      <div class="nav-links">
+        <a href="https://github.com/ricardofuly">GitHub</a>
+        <a href="https://linkedin.com/in/ricardofuly">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
