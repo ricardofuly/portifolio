@@ -77,6 +77,16 @@
   ],
   "projects": [
     {
+      "title": "Overdrive: Don't Stop",
+      "description": "Overdrive: Don’t Stop is a 2D pixel art game developed in Unity, where speed means survival — and standing still means death.",
+      "tech": [
+        "Unity",
+        "C#"
+      ],
+      "image": "images/overdrive.png",
+      "link": "https://ricky-rj.itch.io/overdrive-dont-stop"
+    },
+    {
       "title": "Unreal Learning Playground",
       "description": "Personal project focused on experimenting with and learning new techniques in Unreal Engine.",
       "tech": [

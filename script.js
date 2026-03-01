@@ -1,4 +1,5 @@
 // Loading data from JSON file
+//
 fetch("data.json")
   .then(res => res.json())
   .then(data => {
