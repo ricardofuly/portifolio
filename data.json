@@ -182,15 +182,6 @@
       "youtubeId": "sJNCHsVTUBU"
     },
     {
-      "title": "Common UI First Steps - Unreal Engine",
-      "description": "Introduction to creating common UI elements in Unreal Engine.",
-      "tech": [
-        "Unreal Engine",
-        "C++"
-      ],
-      "youtubeId": "sJNCHsVTUBU"
-    },
-    {
       "title": "UI Transition Support - Unreal Engine",
       "description": "Built in User Widget transition support for Unreal Engine, allowing developers to easily create smooth and reusable UI transitions.",
       "tech": [
