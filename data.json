@@ -155,6 +155,51 @@
   ],
   "showcase": [
     {
+      "title": "GAS Gameplay Ability Composite Pattern - Unreal Engine",
+      "description": "Demonstration of a composite pattern implementation for Unreal Engine's Gameplay Ability System, allowing for more flexible and reusable ability designs.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "AZZ3h01Z8wA"
+    },
+    {
+      "title": "GAS Dash Ability - Unreal Engine",
+      "description": "Demonstration of a dash ability implemented using Unreal Engine's Gameplay Ability System.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "JuLSCw2k8bU"
+    },
+    {
+      "title": "Common UI First Steps - Unreal Engine",
+      "description": "Introduction to creating common UI elements in Unreal Engine.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "sJNCHsVTUBU"
+    },
+    {
+      "title": "Common UI First Steps - Unreal Engine",
+      "description": "Introduction to creating common UI elements in Unreal Engine.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "sJNCHsVTUBU"
+    },
+    {
+      "title": "UI Transition Support - Unreal Engine",
+      "description": "Built in User Widget transition support for Unreal Engine, allowing developers to easily create smooth and reusable UI transitions.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "uLCYXzhelvc"
+    },
+    {
       "title": "Blink Attack Ability",
       "description": "Demonstration of a blink attack ability.",
       "tech": [
