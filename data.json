@@ -98,6 +98,18 @@
   ],
   "projects": [
     {
+      "title": "The Impostor’s Table",
+      "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme, created during Global Game Jam 2026.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Multiplayer Replication",
+        "VOIP"
+      ],
+      "image": "images/mask.png",
+      "link": "https://globalgamejam.org/games/2026/mask-9-1"
+    },
+    {
       "title": "Overdrive: Don't Stop",
       "description": "Overdrive: Don’t Stop is a 2D pixel art game developed in Unity, where speed means survival — and standing still means death.",
       "tech": [
@@ -160,18 +172,6 @@
       ],
       "image": "images/bubble.png",
       "link": "https://globalgamejam.org/games/2025/bubble-express-9-0"
-    },
-    {
-      "title": "The Impostor’s Table",
-      "description": "The Impostor’s Table is a multiplayer social deduction party game where players sit around a table and take turns describing a secret theme, created during Global Game Jam 2026.",
-      "tech": [
-        "Unreal Engine",
-        "C++",
-        "Multiplayer Replication",
-        "VOIP"
-      ],
-      "image": "images/mask.png",
-      "link": "https://globalgamejam.org/games/2026/mask-9-1"
     }
   ],
   "showcase": [
