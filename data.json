@@ -60,6 +60,21 @@
   ],
   "games": [
     {
+      "title": "Egg Smash",
+      "description": "A Fast Paced multiplayer race to collect 20 eggs. Master the chaos by raiding enemy chicken coops or use crazy weapons and aerial attacks to sabotage rivals.",
+      "tech": [
+        "Unreal Engine",
+        "C++",
+        "Gameplay Ability System",
+        "Multiplayer Programming",
+        "UI Programming"
+      ],
+      "role": "Game Developer - Junior",
+      "Studio": "Layoff Studio - 2026 ~ Now",
+      "image": "images/egg.png",
+      "link": "https://store.steampowered.com/app/4601710/Egg_Smash/"
+    },
+    {
       "title": "Nicktoons & The Dice of Destiny",
       "description": "Brings iconic Nickelodeon heroes into a fantasy world with real-time action RPG gameplay.",
       "tech": [
@@ -73,7 +88,7 @@
       "Studio": "Petit Fabrik - 2025 ~ 2026",
       "image": "images/dice.png",
       "link": "https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/"
-    }
+    }    
   ],
   "projects": [
     {
@@ -164,15 +179,6 @@
       "youtubeId": "AZZ3h01Z8wA"
     },
     {
-      "title": "GAS Dash Ability - Unreal Engine",
-      "description": "Demonstration of a dash ability implemented using Unreal Engine's Gameplay Ability System.",
-      "tech": [
-        "Unreal Engine",
-        "C++"
-      ],
-      "youtubeId": "JuLSCw2k8bU"
-    },
-    {
       "title": "Common UI First Steps - Unreal Engine",
       "description": "Introduction to creating common UI elements in Unreal Engine.",
       "tech": [
@@ -180,6 +186,15 @@
         "C++"
       ],
       "youtubeId": "sJNCHsVTUBU"
+    },
+    {
+      "title": "GAS Dash Ability - Unreal Engine",
+      "description": "Demonstration of a dash ability implemented using Unreal Engine's Gameplay Ability System.",
+      "tech": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "youtubeId": "JuLSCw2k8bU"
     },
     {
       "title": "UI Transition Support - Unreal Engine",
